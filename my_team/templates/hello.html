@@ -5,14 +5,11 @@
      </div>
 
      <h3>깜냥하랑팀의 인원은 총 {{count}}명 입니다.</h3>
-     <h4>어서오세요. 깜냥하랑팀의{{sentence1}}님! </h4>  
-     <h4>어서오세요. 깜냥하랑팀의{{sentence2}}님! </h4>  
-     <h4>어서오세요. 깜냥하랑팀의{{sentence3}}님! </h4>  
-     <h4>어서오세요. 깜냥하랑팀의{{sentence4}}님! </h4>  
+
 
      <div>
-         {% for word in li %}
-             <h4>어서오세요. 깜냥하랑팀의{{sentence5}}님! </h4>    
+         {% for word in wordList %}
+             <h4>어서오세요. 깜냥하랑팀의 {{ word }}님! </h4>    
              <br>
          {% endfor %}
      </div>
